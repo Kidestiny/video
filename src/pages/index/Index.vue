@@ -12,7 +12,7 @@
           <strong>数学</strong>
       </el-tab-pane>
       <el-tab-pane label="物理" name="second">
-        <video src="http://localhost:3000/video" width="500" controls="controls"></video>
+        <video src="http://localhost:3000/video/1" width="500" controls="controls"></video>
       </el-tab-pane>
       <el-tab-pane label="其他" name="third">其他</el-tab-pane>
     </el-tabs>
@@ -24,8 +24,10 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      activeName: 'second',
-      msg: '欢迎访问精华在线'
+      activeName: 'first',
+      msg: '欢迎访问精华在线',
+      videoMath: ['1', '2'],
+      videoPho: ['3', '4']
     }
   },
   methods: {

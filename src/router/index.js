@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/pages/index/Index'
 import Seevideo from '@/pages/seevideo/Seevideo'
+import Notfound from '@/pages/notfound/Notfound'
 import Upfile from '@/pages/upfile/Upfile'
 
 Vue.use(Router)
@@ -22,6 +23,11 @@ export default new Router({
       path: '/upfile',
       name: 'Upfile',
       component: Upfile
+    },
+    {
+      path: '*',
+      name: 'Notfound',
+      component: Notfound
     }
   ]
 })
