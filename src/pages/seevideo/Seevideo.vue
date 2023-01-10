@@ -3,6 +3,11 @@
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <video src="http://localhost:3000/video" width="500" controls="controls"></video>
+    <video
+          src="http://localhost:3000/video/1"
+          width="500"
+          controls="controls"
+      ></video>
     <h2>Ecosystem</h2>
   </div>
 </template>
